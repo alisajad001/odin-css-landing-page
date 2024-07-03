@@ -12,17 +12,29 @@ body {
 }
 
 /* Buttons */
-.btn-contact {
+.btn {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 5px;
-  background-color: #0e0e0e;
-  color: #fff;
   cursor: pointer;
   text-decoration: none;
   transition: 0.3s;
+  color: white;
+  background-color: #5620eb;
 }
 
-.btn-contact:hover {
-  background-color: #4e4e4e;
+.btn:hover {
+  background-color: #7a4fff;
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Texts */
+.highlight-text {
+  color: #5620eb;
 }
