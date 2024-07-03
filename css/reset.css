@@ -27,6 +27,16 @@ body {
   background-color: #7a4fff;
 }
 
+.btn-signup {
+  background-color: white;
+  color: #5620eb;
+  font-weight: 500;
+}
+
+.btn-signup:hover {
+  background-color: #f5f5f5b9;
+}
+
 /* Container */
 .container {
   max-width: 1280px;
