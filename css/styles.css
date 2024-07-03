@@ -1,0 +1,35 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar .logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #0e0e0e;
+  padding-bottom: 0.5rem;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 2px solid #0e0e0e;
+}
